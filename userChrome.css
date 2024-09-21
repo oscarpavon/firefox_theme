@@ -1,0 +1,40 @@
+
+#firefox-view-button{
+ display:none !important;
+}
+
+#navigator-toolbox{
+/* display:none !important;*/
+  border: 0px !important;
+}
+
+#alltabs-button{
+  display:none !important;
+}
+
+
+.tab-background {
+  border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important; /* Connected */
+  margin-block: 1px 0 !important; /* Connected */
+}
+.tabbrowser-tab {
+    font-size: 12px !important;
+}
+
+.tab-icon-stack{
+  display:none !important;
+}
+
+
+*|*:root {
+ --tab-min-height:      16px !important; /* adjust */
+ --tab-min-width:       30px !important; /* adjust */
+}
+
+/* TABS: height */
+#tabbrowser-tabs,
+#tabbrowser-tabs > #tabbrowser-arrowscrollbox,
+.tabbrowser-tabs .tabbrowser-tab {
+  min-height: var(--tab-min-height) !important;
+  max-height: var(--tab-min-height) !important;
+}
