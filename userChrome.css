@@ -1,40 +1,100 @@
 
-#firefox-view-button{
- display:none !important;
-}
-
-#navigator-toolbox{
-/* display:none !important;*/
-  border: 0px !important;
-}
-
 #alltabs-button{
   display:none !important;
 }
 
+#back-button{
+  display: none !important;
+}
+#forward-button{
+  display: none !important;
+}
+#PanelUI-button{
+  display: none !important;
+}
 
-.tab-background {
-  border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important; /* Connected */
-  margin-block: 1px 0 !important; /* Connected */
+#tracking-protection-icon-container{
+  display: none !important;
 }
-.tabbrowser-tab {
-    font-size: 12px !important;
+
+#page-action-buttons{
+  display: none !important;
 }
+
+#nav-bar-overflow-button{
+  display: none !important; 
+}
+
+#unified-extensions-button{
+  display: none !important;
+}
+
+#identity-box{
+  display: none !important;
+}
+
+#navigator-toolbox{
+  border: 0px !important;
+}
+
 
 .tab-icon-stack{
-  display:none !important;
+/*  display:none !important;*/
 }
 
+.tab-icon-sound-label{
+ display:none !important;
+}
 
 *|*:root {
  --tab-min-height:      16px !important; /* adjust */
  --tab-min-width:       30px !important; /* adjust */
+ --urlbar-min-height:   16px !important;
+ --urlbar-height:       16px !important;
+ --urlbar-container-height: 16.00px !important;
+ --tab-selected-bgcolor: #3a475c !important;  
+}
+#urlbar-container{
+ --urlbar-container-height: 16.00px !important;
+}
+#urlbar{
+ --urlbar-height:       16px !important;
 }
 
+
+.urlbarView{
+/*  display: none !important;*/
+}
+#nav-bar{
+  font-size: 10px !important;
+    background: #3E4452 !important;
+    color: #b2b2b2 !important;   
+}
+#url-bar{
+  min-height: var(--urlbar-min-height) !important;
+    background: #3e4452 !important;
+    color: #b2b2b2 !important;   
+}
 /* TABS: height */
 #tabbrowser-tabs,
 #tabbrowser-tabs > #tabbrowser-arrowscrollbox,
 .tabbrowser-tabs .tabbrowser-tab {
   min-height: var(--tab-min-height) !important;
   max-height: var(--tab-min-height) !important;
+    background: #3E4452 !important;
+    color: #b2b2b2 !important;   
+}
+
+.tabbrowser-tab {
+    background: #42464f !important;
+    color: #b2b2b2 !important;   
+    font-size: 12px !important;
+}
+
+.tab-background {
+  border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important; /* Connected */
+  margin-block: 1px 0 !important; /* Connected */
+  /* background: #42464f !important; */
+  /* color: #b2b2b2 !important;    */
+
 }
