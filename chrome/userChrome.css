@@ -3,9 +3,10 @@
   display:none !important;
 }
 
-#back-button{
-  display: none !important;
-}
+/* #back-button{ */
+/*   display: none !important; */
+/* } */
+
 #forward-button{
   display: none !important;
 }
@@ -66,7 +67,7 @@
 /*  display: none !important;*/
 }
 #nav-bar{
-  font-size: 10px !important;
+  font-size: 14px !important;
     background: #3E4452 !important;
     color: #b2b2b2 !important;   
 }
@@ -88,7 +89,7 @@
 .tabbrowser-tab {
     background: #42464f !important;
     color: #b2b2b2 !important;   
-    font-size: 12px !important;
+    font-size: 14px !important;
 }
 
 .tab-background {
